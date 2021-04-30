@@ -3,14 +3,14 @@ package dersUcOdev;
 public class Student extends User {
 
 	private String lecture;
-	private String homeWork;
+	private String homework;
 
 	public Student() {
 	}
 
-	public Student(String lecture, String homeWork) {
+	public Student(String lecture, String homework) {
 		this.lecture = lecture;
-		this.homeWork = homeWork;
+		this.homework = homework;
 	}
 
 	public String getLecture() {
@@ -21,12 +21,12 @@ public class Student extends User {
 		this.lecture = lecture;
 	}
 
-	public String getHomeWork() {
-		return homeWork;
+	public String getHomework() {
+		return homework;
 	}
 
-	public void setHomeWork(String homeWork) {
-		this.homeWork = homeWork;
+	public void setHomework(String homework) {
+		this.homework = homework;
 	}
 
 }
